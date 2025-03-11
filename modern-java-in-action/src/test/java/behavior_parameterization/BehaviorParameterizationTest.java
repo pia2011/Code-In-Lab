@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+// 250312
 @DisplayName("동작 파라미터화 테스트")
 public class BehaviorParameterizationTest {
 

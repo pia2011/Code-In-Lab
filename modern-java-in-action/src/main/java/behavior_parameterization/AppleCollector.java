@@ -2,7 +2,7 @@ package behavior_parameterization;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// 250312
 public class AppleCollector {
 
     public static <T> List<T> filterApples(List<T> list, ApplePredicate<T> p){
