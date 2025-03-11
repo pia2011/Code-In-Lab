@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
-
+// 250312
 class FunctionalInterfaceTest {
     @Test
     void Predicate_함수는_T_객체를_받아_Boolean_을_반환할_때_사용한다() {
