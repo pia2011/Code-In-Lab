@@ -16,4 +16,8 @@ public class Dish {
         return new Dish(name, calories);
     }
 
+    public boolean isVegetarian(){
+        return this.calories == 0;
+    }
+
 }
