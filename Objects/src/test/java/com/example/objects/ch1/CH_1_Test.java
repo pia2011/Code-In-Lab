@@ -3,7 +3,9 @@ package com.example.objects.ch1;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Bad_case_test {
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class CH_1_Test {
 
     @Test
     void 정상_동작_테스트() throws Exception {
@@ -21,6 +23,6 @@ public class Bad_case_test {
         theater.enter(audience);
 
         // then
-        Assertions.assertThat(audience.getBag().getTicket()).isNotNull();
+        assertThat(bag.hasTicket()).isTrue();
     }
 }
